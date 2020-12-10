@@ -9,6 +9,7 @@ body{
 	width: 100%;
 	margin: 0%;
 	height: 100%;
+	font-family: Roboto, Helvetica, sans-serif;
 }
 .boundsContainer{
 	background-color: red;
