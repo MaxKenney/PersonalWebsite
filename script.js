@@ -34,3 +34,14 @@ window.onclick = function(event) {
     project3Modal.style.display = "none";
   }
 }
+
+$(document).ready(function(){
+  
+  var typed = new Typed(".typed", {
+    strings: ["XR Developer", "Software Engineer", "Unity Developer"],
+    typeSpeed: 70,
+    loop: true,
+    startDelay: 1000,
+    showCursor: false
+  })
+});
