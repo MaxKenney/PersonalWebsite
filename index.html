@@ -6,6 +6,8 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@900&family=Kufam:wght@900&display=swap" rel="stylesheet">
+	
+
 </head>
 <body>
 	<!-- <div class="boundsContainer" id="navBar"> -->
@@ -102,11 +104,20 @@
 
 
 	<div class = "highlightContainer" id="introContainer">
-		<div id="nameContainer">
+		<!-- <div id="nameContainer">
 			<h1 id="name"> MAX KENNEY</h1>
+		</div> -->
+
+		<div class = "titleMessage">
+			<div class = "heading">
+				<p class = "main">MAX KENNEY</p>
+				<p class = "sub typed"></p>
+			</div>
 		</div>
 		
-
+		<video autoplay muted loop id="myVideo">
+		  <source src="introVideo.mp4" type="video/mp4">
+		</video>
 		
 		
 	</div>
@@ -127,9 +138,6 @@
 				<p id="projectName" style="font-family: 'Kufam', cursive"> PacMan VR</p>
 			</div>
 			
-			<div class="hiddenProjectContent">
-				<h1>Hi</h1>
-			</div>
 		</div>
 
 
@@ -137,9 +145,6 @@
 		<div class="project" id="project3">
 			<div id="projectNameContainer">
 				<p id="projectName" style="font-family: 'Caveat', cursive"> City Experience VR</p>
-			</div>
-			<div class="hiddenProjectContent">
-				<h1>Hi</h1>
 			</div>
 		</div>
 
@@ -161,5 +166,6 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
+	<script src="typed.min.js"></script>
 </body>
 </html>
